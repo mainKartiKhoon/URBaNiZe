@@ -1,0 +1,76 @@
+.imageOfRealEstate{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.mainBox:hover{
+    transform: translateY(-5px);
+    box-shadow: 0px 4px 20px #000;
+}
+
+.mainBox{
+    transition: all 0.2s ease;
+}
+
+
+@media screen and (max-width: 1325px) {
+    .mainBox{
+        width: 950px;
+        /* margin-bottom: 10px; */
+        margin-bottom: 0px;
+    }
+    .imagePart{
+        width: 27%;
+    }
+    .restPart{
+        width: 73%;
+    }
+
+}
+
+@media screen and (max-width: 1000px) {
+    .mainBox{
+        width: 700px;
+    }
+    .imagePart{
+        width: 38%;
+    }
+    .restPart{
+        width: 62%;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .mainBox{
+        width: 570px;
+    }
+    .imagePart{
+        width: 45%;
+    }
+    .restPart{
+        width: 55%;
+    }
+    
+}
+
+@media screen and (max-width: 615px) {
+    .mainBox{
+        width: 100%;
+        /* padding: 20px; */
+        margin: 10px;
+        /* height: 610px; */
+        height: 100%;
+        flex-direction: column;
+    }
+    .imagePart{
+        width: 100%;
+        /* height: 100%; */
+        /* object-fit: cover; */
+
+    }
+    .restPart{
+
+        width: 100%;
+    }
+
+}

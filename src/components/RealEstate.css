@@ -1,0 +1,21 @@
+@media screen and (max-width: 615px) {
+    .properties{
+        gap: 5px;
+    }
+    .mainTitle{
+        font-size: 33px;
+
+    }
+    .mainPara{
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .mainTitle{
+        font-size: 27px;
+    }
+    .mainPara{
+        font-size: 13px;
+    }
+}

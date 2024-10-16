@@ -1,0 +1,18 @@
+@media screen and (max-width: 570px) {
+    .mainBox{
+        width: 100%;
+    }
+    .heading{
+        font-size: 34px;
+    }
+    
+}
+
+@media screen and (max-width: 450px) {
+    .outsideMain{
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+    
+
+}

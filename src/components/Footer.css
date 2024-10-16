@@ -1,0 +1,102 @@
+.logoText1{
+
+    /* font-family: "Bebas Neue", sans-serif; */
+    font-family: "Poppins", sans-serif;
+    font-size: 35px;
+    color: white;
+    font-weight: bold;
+}
+
+
+.wholeFooter p:hover{
+    color: #e9eaeb;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 1000px) {
+    .wholeFooter{
+        flex-direction: column;
+        gap: 25px;
+        padding: 100px 50px;
+    }
+    .textInsideLogoBox{
+        display: none;
+    }
+    .logoBox{
+        display: flex;
+        align-content: center;
+        /* justify-content: center; */
+        justify-content: space-between;
+        width: 100%;
+        /* justify-content: center; */
+    }
+    .downOfLogo{
+        flex-direction: row;
+    }
+    .logoText1{
+        margin-bottom: 0px;
+    }
+    .secondPartInFooter{
+        width: 100%;
+    }
+   
+    
+}
+
+@media screen and (max-width: 750px) {
+    .secondPartInFooter{
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    .dBox{
+        width: 200px;
+        /* border: 2px solid red; */
+    }
+}
+
+@media screen and (max-width: 500px) {
+    
+    .dBox{
+        width: 150px;
+        font-size: 12px;
+    }
+
+    .secondPartInFooter{
+        gap: 10px;
+    }
+    .logoText1{
+        font-size: 25px;
+    }
+    .iconInsideLogoBox{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .logoBox{
+        flex-direction: column;
+        justify-content: center;
+        gap: 15px;
+    }
+    .logoText1{
+        width: 100%;
+        text-align: center;
+    }
+    .downOfLogo{
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .dBox{
+        width: 100px;
+        font: 10px;
+    }
+    .secondPartInFooter{
+        gap: 5px;
+    }
+}
+
+
+
+

@@ -1,0 +1,208 @@
+.image1InHome{
+    max-width: 650px;
+}
+
+.activeButton{
+    color: white;
+}
+
+.inactiveButton{
+    color: #9298a4;
+}
+
+.formInPage4{
+    color: white;
+}
+
+@media screen and (max-width:1300px) {
+    .image1InHome{
+        max-width: 500px;
+    }
+    .page1{
+        padding-left: 100px;
+        padding-right: 100px;
+    }
+    .headingInPage1{
+        font-size: 50px;
+    }
+    .heroSearchBar{
+        display: none;
+    }
+    .searchBar{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    .insidePage1{
+        display: block;
+        width: 100%;
+    }
+    .firstPara{
+        width: 100%;
+        gap: 30px;
+        margin-bottom: 50px;
+    }
+    .page1{
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .outsideImage{
+        width: 100%;
+    }
+    .image1InHome{
+        max-width: 100%;
+    }
+    .searchBar{
+        display: none;
+    }
+    .heroSearchBar{
+        display: none;
+    }
+
+}
+
+@media screen and (max-width: 712px) {
+    
+    
+    .headingInPage1{
+        font-size: 30px;
+    }
+    .page1{
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-top: 0px;
+    }
+    .firstPara h2{
+        line-height: 30px;
+    }
+    .insidePage2 h2{
+        font-size: 25px;
+    }
+    .insidePage2 p{
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 600px)  {
+    .image1InHome{
+        width: 100%;
+    }
+    .paraInFirstPara{
+        font-size: 14px;
+    }
+    /* .secondPartInPage4{
+        max-width: 600px;
+    } */
+    
+
+}
+
+@media screen and (max-width: 500px) {
+    .arrow{
+       
+        font-size: 10px;
+    }
+    .secondPartInPage4{
+        display: none;
+    }
+}
+
+@media screen and (max-width:1370px) {
+    .searchBar{
+        top: 650px;
+    }
+    
+}
+
+@media screen and (max-width: 1500px) {
+    .outsidePlaceComponent{
+        flex-wrap: wrap;
+        justify-content:space-around;
+        gap: 50px;
+        
+    }
+}
+
+@media screen and (max-width:670px) {
+    .secondPartInPage4{
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 900px) {
+    .page3{
+        flex-direction: column;
+    }
+    .page4{
+        flex-direction: column;
+    }
+    .secondPartInPage4{
+        max-width: 600px;
+    }
+    .firstPartInPage4{
+        width: 100%;
+    }
+    .secondPartInPage4{
+        width: 100%;
+    }
+    .secondPartPage3{
+        width: 100%;
+    }
+    .headingInPage4{
+        font-size: 30px;
+    }
+    .paraInPage4{
+        font-size: 15px;
+    }
+    .nextPartInPage4{
+        font-size: 10px;
+    }
+    .boxInPage4{
+        padding: 2px 8px;
+    }
+    .textBoxInPage4{
+        font-size: 16px;
+    }
+    .formInPage4{
+        font-size: 10px;
+    }
+    .formInPage4button{
+        /* font-size: 10px; */
+        left: 177px;
+    }
+    .imageInPage3{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .thing1{
+        font-size: 10px;
+        margin-bottom: 10px;
+        padding: 1px 8px;
+    }
+    .thing2{
+        font-size: 15px;
+        margin-bottom: 8px;
+    }
+    .thing3{
+        font-size: 12px;
+
+    }
+    .headingThing1{
+        font-size: 14px;
+    }
+    .headingThing2{
+        font-size: 23px;
+    }
+    .headingInPage4{
+        font-size: 22px;
+    }
+    .headingInPage4{
+        margin-bottom: 10px;
+    }
+    .paraInPage4{
+        font-size: 13px;
+    }
+}
